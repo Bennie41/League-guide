@@ -1,0 +1,8 @@
+#options{
+    color: blue;
+    font-size: 22px;
+}
+
+#options:hover{
+    color: red;
+}
