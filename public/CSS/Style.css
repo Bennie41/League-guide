@@ -1,8 +1,54 @@
 #options{
-    color: blue;
+    color: rgb(26, 102, 36);
     font-size: 22px;
 }
 
 #options:hover{
-    color: red;
+    color: rgb(202, 17, 17);
 }
+
+#matchups{
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(0, 0, 0);
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 80%;
+        column-width: auto;
+      }
+      
+      td, th{
+        border: 1px solid #000000;
+        text-align: left;
+        padding: 6px;
+      }
+
+      tr:nth-child(1) {
+        background-color: black;
+      }
+      tr:nth-child(2) {
+        background-color: red;
+      }
+      tr:nth-child(3) {
+        background-color: rgb(255, 123, 0);
+      }
+      tr:nth-child(4) {
+        background-color: rgb(255, 217, 0);
+      }
+      tr:nth-child(5) {
+        background-color: yellow;
+      }
+      tr:nth-child(6) {
+        background-color: rgb(81, 241, 81);
+      }
+      tr:nth-child(7) {
+        background-color: lime;
+      }
+      tr:nth-child(8) {
+        background-color: rgb(20, 247, 235);
+      }
+      th{
+        color: white;
+      }
+      tr{
+        font-weight: bold;
+      }
