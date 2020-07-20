@@ -1,0 +1,5 @@
+in terminal/console:
+    1. git pull
+    2. npm install
+
+    als je de website wilt starten typ in je console/terminal: npm start
