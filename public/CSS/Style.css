@@ -1,9 +1,9 @@
-#options{
+#index{
     color: rgb(26, 102, 36);
     font-size: 22px;
 }
 
-#options:hover{
+#index:hover{
     color: rgb(202, 17, 17);
 }
 
@@ -12,7 +12,7 @@
         color:rgb(0, 0, 0);
         font-family: arial, sans-serif;
         border-collapse: collapse;
-        width: 80%;
+        width: 50%;
         column-width: auto;
       }
       

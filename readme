@@ -3,3 +3,6 @@ in terminal/console:
     2. npm install
 
     als je de website wilt starten typ in je console/terminal: npm start
+    git add .
+    git commit -m "message"
+    git push origin master
