@@ -40,7 +40,7 @@
 } */
 
 .container{
-    height:10px;
+    
 }
 
  .tierlist{
@@ -56,10 +56,17 @@
 }
 
 .difficulty{
-    /* flex: 0 0 140px; */
-    order: 1;
+    flex: 0 0 110px;
+    order: 2;
+    font-size: 12px;
+    font-weight: bold;
+    /* max-height: 60px; */
 }
 .champions{
     flex: 1;
-    order: 2;
+    order: 1;
+    margin-top: auto;
+    font-size: 0px;
+    /* max-height: 60px; */
+    justify-content: first baseline;
 }
