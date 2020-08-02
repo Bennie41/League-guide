@@ -1,0 +1,132 @@
+body{
+    background-color: cornflowerblue;
+  }
+ main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    ". 	. 	. 	. 	box1 	. 	. 	. 	. "
+    ". 	. 	. 	. 	box2 	box2 	box2 	box2 	box2"
+    ". 	. 	. 	. 	box2 	box2 	box2 	box2 	box2"
+    ". 	. 	. 	. 	box2 	box2 	box2 	box2 	box2"
+    ". 	. 	. 	. 	box2 	box2 	box2 	box2 	box2"
+    ". 	. 	. 	. 	box2 	box2 	box2 	box2 	box2"
+    ". 	. 	. 	. 	box2 	box2 	box2 	box2 	box2"
+    ". 	. 	. 	. 	box3 	box3 	box3 	box3 	box3"
+    ". 	. 	. 	. 	box3 	box3 	box3 	box3 	box3"
+    ". 	. 	. 	. 	box3 	box3 	box3 	box3 	box3"
+    ". 	. 	. 	. 	box3 	box3 	box3 	box3 	box3"
+    ". 	. 	. 	. 	box3 	box3 	box3 	box3 	box3"
+    ". 	. 	. 	. 	box3 	box3 	box3 	box3 	box3"
+    ". 	. 	. 	. 	box3 	box3 	box3 	box3 	box3"
+    ". 	. 	. 	. 	box3 	box3 	box3 	box3 	box3"
+    ". 	. 	. 	. 	. 	. 	. 	. 	. "; 
+}
+
+.box1{
+    background-color: aqua;
+    grid-area: box1;
+    margin: 5% 0% 10% 0%;
+    display: flex;
+    justify-content: center;
+    
+}
+.box2{
+    grid-area: box2;
+}
+.box3{
+    grid-area: box3;
+}
+.box4{
+    background-color: rgb(44, 42, 165);
+    grid-area: box4;
+}
+
+
+
+.fixed-size-container {
+    /* max-width: 1000px; */
+    /* margin: 40px auto 0 auto; */
+    /* padding: 30px 0; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+  }
+
+  .matchups{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 0, 0);
+    font-family: arial, sans-serif;
+   
+    flex: auto;
+    column-width: auto;
+    border: 1px solid white;
+
+  }
+  
+  
+  .foto {
+    color: rgba(255, 255, 255, 0.459);
+    font-size: 60px;
+  }
+
+  .content {
+    width: 60%;
+    height: 250px;
+    color: #FFF;
+    line-height: 30px;
+    font-size: 20px;
+    /* margin-bottom: 5%; */
+    margin-top: 2%;
+
+  }
+  
+
+  .champion-info{
+    background-color: #222238;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid white;
+  }
+  td, th{
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 6px;
+  }
+
+  tr:nth-child(1) {
+    background-color: black;
+  }
+  tr:nth-child(2) {
+    background-color: red;
+  }
+  tr:nth-child(3) {
+    background-color: rgb(255, 123, 0);
+  }
+  tr:nth-child(4) {
+    background-color: rgb(255, 217, 0);
+  }
+  tr:nth-child(5) {
+    background-color: yellow;
+  }
+  tr:nth-child(6) {
+    background-color: rgb(81, 241, 81);
+  }
+  tr:nth-child(7) {
+    background-color: lime;
+  }
+  tr:nth-child(8) {
+    background-color: rgb(20, 247, 235);
+  }
+  th{
+    color: white;
+  }
+  tr{
+    font-weight: bold;
+  }
